@@ -28,12 +28,12 @@ In addition to a coding standard, ODDoc will provide a set of CFML files for par
 
 ## Getting Started
 
-All ODDoc will follow a basic structure with that embends them inside of comment blocks `/** ... */`.  Content that requires documentation outside of a CFScript area, the ODDoc comment block can be embeded in a CFML comment block `<!--- --->`.  All subsequent line in the ODDoc should start with a `* `.
+All ODDoc will follow a basic structure with that embends them inside of comment blocks `/** ... */`.  Content that requires documentation outside of a CFScript area, the ODDoc comment block can be embeded in a CFML comment block `<!--- --->`.  All subsequent line in the ODDoc optionally starts with a `* `.
 
 ### Basic structure
 
 The format of a ODDoc can be broken into a couple areas
-* Short Descriptionhttp://www.strategicemployment.com/jobs.html#/job-details/Job-8578-sp
+* Short Description
 * Long Description
 * Explanation
 * Tags
