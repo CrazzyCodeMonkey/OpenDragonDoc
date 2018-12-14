@@ -28,12 +28,12 @@ In addition to a coding standard, ODDoc will provide a set of CFML files for par
 
 ## Getting Started
 
-All ODDoc will follow a basic structure with that embends them inside of comment blocks `/** ... */`.  Content that requires documentation outside of a CFScipr area, the ODDoc comment block can be embeded in a CFML comment block `<!--- /** ... */ --->`.  All subsequent links in the ODDoc should start with a `* `.
+All ODDoc will follow a basic structure with that embends them inside of comment blocks `/** ... */`.  Content that requires documentation outside of a CFScript area, the ODDoc comment block can be embeded in a CFML comment block `<!--- --->`.  All subsequent line in the ODDoc should start with a `* `.
 
 ### Basic structure
 
 The format of a ODDoc can be broken into a couple areas
-* Short Description
+* Short Descriptionhttp://www.strategicemployment.com/jobs.html#/job-details/Job-8578-sp
 * Long Description
 * Explanation
 * Tags
@@ -53,3 +53,9 @@ Tags are structured pieces of data about the block being documented.  This will 
 
 #### Example
 The Example code will be started with `@example` tag, and all following content will be treated as example code.
+
+## Tag Definitions
+
+| Tag & Parameters | Usage | Applies To | Since |
+| --- | --- | --- | --- |
+| **@page** _url_      | Used to the absolute url define a url accessible page | CFML pages | v0.0  |
